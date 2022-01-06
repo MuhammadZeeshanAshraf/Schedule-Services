@@ -9,8 +9,8 @@
  * Your about ViewModel code goes here
  */
 define(['../accUtils'],
- function(accUtils) {
-    function AboutViewModel() {
+  function (accUtils) {
+    function ServicesViewModel() {
       // Below are a set of the ViewModel methods invoked by the oj-module component.
       // Please reference the oj-module jsDoc for additional information.
 
@@ -49,6 +49,6 @@ define(['../accUtils'],
      * return a constructor for the ViewModel so that the ViewModel is constructed
      * each time the view is displayed.
      */
-    return AboutViewModel;
+    return ServicesViewModel;
   }
 );
